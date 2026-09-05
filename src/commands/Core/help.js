@@ -108,7 +108,7 @@ export async function createInitialHelpMenu(client) {
     });
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "Made with Fw40" 
     });
     embed.setTimestamp();
 
@@ -119,7 +119,7 @@ export async function createInitialHelpMenu(client) {
 
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL("https://discord.gg/QnWNz2dKCE")
+        .setURL("https://discord.gg/wrNT8MPWMX")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
